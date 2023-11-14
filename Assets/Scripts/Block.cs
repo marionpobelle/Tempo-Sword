@@ -49,25 +49,25 @@ public class Block : MonoBehaviour
     {
         if (other.CompareTag("SwordRed"))
         {
-            if(color == BlockColor.Red)
+            if (color == BlockColor.Red && GameManager.instance.rightSwordTracker.velocity.magnitude >= GameManager.instance.swordHitVelocityThreshold)
             {
-                //Increase score
+                GameManager.instance.AddScore();
             }
             else
             {
-                //Remove life
+                GameManager.instance.HitWrongBlock();
             }
             Hit();
         }
         else if (other.CompareTag("SwordGreen"))
         {
-            if(color == BlockColor.Green)
+            if (color == BlockColor.Green && GameManager.instance.leftSwordTracker.velocity.magnitude >= GameManager.instance.swordHitVelocityThreshold)
             {
-                //Increase score
+                GameManager.instance.AddScore();
             }
             else
             {
-                //Remove life
+                GameManager.instance.HitWrongBlock();
             }
             Hit();
         }
