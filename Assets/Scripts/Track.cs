@@ -11,8 +11,6 @@ public class Track : MonoBehaviour
 {
     //Data for the track's song
     public SongData song;
-    //Audio source for the song
-    public AudioSource audioSource;
     //List containing all the blocks that can be placed on the track
     public List<GameObject> blocks;
     //Transform of the track
@@ -73,7 +71,7 @@ public class Track : MonoBehaviour
     */
     void StartSong()
     {
-        audioSource.PlayOneShot(song.song);
+        FindObjectOfType<AudioManager>().PlayOneShot("Music");
         Invoke("SongIsOver", song.song.length);
     }
 

@@ -77,13 +77,13 @@ public class Block : MonoBehaviour
             //If we hit the right block with the right sword and the velocity is valid regarding the threshold
             if (color == BlockColor.Red && GameManager.instance.rightSwordTracker.velocity.magnitude >= GameManager.instance.swordHitVelocityThreshold)
             {
+                FindObjectOfType<AudioManager>().PlayOneShot("HitBlock");
                 GameManager.instance.AddScore();
-                //FindObjectOfType<AudioManager>().Play("HitBlock");
             }
             else
             {
+                FindObjectOfType<AudioManager>().PlayOneShot("WrongBlock");
                 GameManager.instance.HitWrongBlock();
-                //FindObjectOfType<AudioManager>().Play("WrongBlock");
             }
             Hit();
         }
@@ -92,13 +92,13 @@ public class Block : MonoBehaviour
             //If we hit the right block with the right sword and the velocity is valid regarding the threshold
             if (color == BlockColor.Green && GameManager.instance.leftSwordTracker.velocity.magnitude >= GameManager.instance.swordHitVelocityThreshold)
             {
+                FindObjectOfType<AudioManager>().PlayOneShot("HitBlock");
                 GameManager.instance.AddScore();
-                //FindObjectOfType<AudioManager>().Play("HitBlock");
             }
             else
             {
+                FindObjectOfType<AudioManager>().PlayOneShot("WrongBlock");
                 GameManager.instance.HitWrongBlock();
-                //FindObjectOfType<AudioManager>().Play("WrongBlock");
             }
             Hit();
         }
