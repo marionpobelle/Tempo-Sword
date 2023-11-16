@@ -9,18 +9,18 @@ GAMEPLAY
 - Track (beats)
 
 SYSTEM
-Game Manager (score, life, end game logic, velocity threshold) 
-Automated block map on track
-Velocity racker on controllers
-Added audio manager to add juice to the block hits (sounds gestion)
-SongData (song characteristics)
+- Game Manager (score, life, end game logic, velocity threshold) 
+- Automated block map on track
+- Velocity racker on controllers
+- Added audio manager to add juice to the block hits (sounds gestion)
+- SongData (song characteristics)
 
 UI
-Position and size
-Display score
-Display life
+- Position and size
+- Display score
+- Display life
 
 VR
-set up XR Origin
-set up controllers
-Model controllers
+- set up XR Origin
+- set up controllers
+- Model controllers
