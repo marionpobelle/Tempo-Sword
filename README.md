@@ -1,19 +1,23 @@
-# Presentation
+# Tempo Sword
+## Summary
 
-Tempo Sword is the result of a quick Beat Saber like VR project. I wished to experiment with VR a bit further and since Beat Saber is one of my favorite game on that platform, I wanted to try and see if I could implement a few mechanics from the game myself.
+A small Beat Saber like VR game.
 
-# Development
+## Development
 
-This game was made with [Unity](https://unity.com/fr) and the assets were found on the [ Asset Store of Unity](https://assetstore.unity.com/).
-The music used in this project is [Newer Wave by Kevin MacLeod](https://www.youtube.com/watch?v=T-4jRyT8lDc&ab_channel=KevinMacLeod). It is an easy song to work with as the beats are easy to notice. I used the [XR Interaction Toolkit](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html) to set up the VR system.
+This game was made with [Unity](https://unity.com/fr).
+The music used in this project is [Newer Wave by Kevin MacLeod](https://www.youtube.com/watch?v=T-4jRyT8lDc&ab_channel=KevinMacLeod). It is an easy song to work with as the beats are easy to notice. 
 
-# Demo
+Additionnal plug-ins :
+[XR Interaction Toolkit](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html).
+
+## Demo
 
 ![Gif_TempoSword](https://github.com/marionpobelle/Tempo-Sword/assets/112869026/3ebc9078-e9a1-4a50-92b9-0cda5c8035cf)
 
 https://github.com/marionpobelle/Tempo-Sword/assets/112869026/345a8f58-9220-406b-8c04-33a1a126a608
 
-# TDL
+## TDL
 
 - [x] GAMEPLAY
 - - [x] Environment (platform, track lines, track beat lines)
@@ -26,7 +30,7 @@ https://github.com/marionpobelle/Tempo-Sword/assets/112869026/345a8f58-9220-406b
 - - [x] Automated block map generation on track
 - - [x] Velocity Tracker (on controllers)
 - - [x] Audio Manager (SFX, music)
-- - [x] Song Data (characteristics)
+- - [x] Song Data
   
 - [x] UI
 - - [x] Position and Size
