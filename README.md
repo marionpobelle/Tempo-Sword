@@ -5,7 +5,7 @@ A small Beat Saber like VR game.
 
 ## Development
 
-This game was made with [Unity](https://unity.com/fr).
+This game was made with [Unity](https://unity.com/fr).\
 The music used in this project is [Newer Wave by Kevin MacLeod](https://www.youtube.com/watch?v=T-4jRyT8lDc&ab_channel=KevinMacLeod). It is an easy song to work with as the beats are easy to notice. 
 
 Additionnal plug-ins :
