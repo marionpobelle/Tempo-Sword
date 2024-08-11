@@ -26,16 +26,14 @@ https://github.com/marionpobelle/Tempo-Sword/assets/112869026/345a8f58-9220-406b
 - - [x] Track (beats)
   
 - [x] SYSTEM
-- - [x] Game Manager (score, life, end game logic, velocity threshold)
+- - [x] Game Handler (score, life, end game logic, velocity threshold)
 - - [x] Automated block map generation on track
 - - [x] Velocity Tracker (on controllers)
-- - [x] Audio Manager (SFX, music)
+- - [x] Audio Handler (SFX, music)
 - - [x] Song Data
   
 - [x] UI
-- - [x] Position and Size
-- - [x] Display score
-- - [x] Display life
+- - [x] HUD
 
 - [x] VR
 - - [x] Set up XR Origin
